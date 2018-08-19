@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(dummy_cmake_project VERSION 0.0.0.3)
+project(dummy_cmake_project VERSION 0.0.0.4)
 
 set(CMAKE_CXX_STANDARD 17)
 ADD_SUBDIRECTORY(bump-version)
