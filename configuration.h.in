@@ -1,0 +1,14 @@
+//
+// Created by richard on 2018-08-19.
+//
+
+#pragma once
+
+namespace version {
+
+    static constexpr uint_fast32_t major = @PROJECT_VERSION_MAJOR@;
+    static constexpr uint_fast32_t minor = @PROJECT_VERSION_MINOR@;
+    static constexpr uint_fast32_t patch = @PROJECT_VERSION_PATCH@;
+    static constexpr uint_fast32_t tweak = @PROJECT_VERSION_TWEAK@;
+    
+} // namespace version
